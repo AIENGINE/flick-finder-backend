@@ -50,6 +50,7 @@ interface Env {
     OPENAI_API_KEY: string;
     LANGBASE_FLICK_FINDER_API_KEY: string,
     LANGBASE_PERPLEXITY_API_KEY: string,
+	CACHE: KVNamespace
 }
 
 export type {
